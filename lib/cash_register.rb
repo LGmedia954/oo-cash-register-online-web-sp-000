@@ -11,4 +11,8 @@ class CashRegister
     @discount.even? || @discount.to_f
   end
   
+  def void_last_transaction
+    
+end
+  
 end
