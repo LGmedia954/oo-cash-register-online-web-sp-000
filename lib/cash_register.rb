@@ -15,6 +15,10 @@ class CashRegister
     @@sales
   end
   
+    def save
+    self.class.all << self
+  end
+  
   def void_last_transaction
     
 end
