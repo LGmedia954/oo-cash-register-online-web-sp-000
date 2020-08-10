@@ -16,7 +16,6 @@ class CashRegister
     if quantity.to_i >= 1
     @items << title
     @total += 1
-  end
   else
     @items << title
   end
