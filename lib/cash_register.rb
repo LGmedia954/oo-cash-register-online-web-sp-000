@@ -19,8 +19,7 @@ class CashRegister
   else
     @cart << title
   end
-  @total += price*quantity
-    @last_transaction = @total
+  @total += price * quantity
     @total
   end
   
@@ -34,6 +33,9 @@ class CashRegister
     end
   end
   
+  def @last_transaction
+    @cart += add_item
+  end
  
   
 def void_last_transaction()
