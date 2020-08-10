@@ -8,7 +8,7 @@ class CashRegister
   end
   
   def apply_discount
-    @discount
+    @discount.even? || @discount.to_f
   end
   
 end
