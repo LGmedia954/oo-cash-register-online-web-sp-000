@@ -16,7 +16,7 @@ class CashRegister
     if quantity.to_i >=1
     @items << title
   end
-   == @total += 1
+  else  == @total += 1
   end
   
   def apply_discount
