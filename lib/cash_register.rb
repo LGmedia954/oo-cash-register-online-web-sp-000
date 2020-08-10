@@ -16,7 +16,8 @@ class CashRegister
     if quantity.to_i >= 2
     @items << title
   end
-  else @items << title
+  else
+    @items << title
   end
   @total += price*quantity
     @last_transaction = @total
