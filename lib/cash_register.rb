@@ -21,7 +21,7 @@ class CashRegister
   else
     if @discount == 0
       puts "There is no discount to apply."
-    
+    end
   end
   
   def total
