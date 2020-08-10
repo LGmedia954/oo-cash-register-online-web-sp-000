@@ -31,9 +31,7 @@ class CashRegister
     end
   end
   
-  def @last_transaction
-    @items + add_item
-  end
+
  
   
 def void_last_transaction()
