@@ -23,6 +23,7 @@ class CashRegister
   @total += price*quantity
     @last_transaction = @total
     @total
+  end
   
   def apply_discount
     if @discount += 1
