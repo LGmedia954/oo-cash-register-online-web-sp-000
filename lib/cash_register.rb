@@ -15,7 +15,12 @@ class CashRegister
   end
   
   def apply_discount
-    @discount.even? || @discount.to_f
+    if @discount += 1
+    @total -= @discount.to_f
+  else
+    if @discount = 0
+      puts 
+    
   end
   
   def total
