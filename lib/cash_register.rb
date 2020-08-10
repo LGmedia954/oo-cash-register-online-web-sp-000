@@ -19,7 +19,7 @@ class CashRegister
     @total -= @discount.to_f
   else
     if @discount = 0
-      puts 
+      puts "There is no discount to apply."
     
   end
   
