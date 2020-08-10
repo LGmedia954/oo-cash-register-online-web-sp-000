@@ -16,7 +16,7 @@ class CashRegister
     if quantity.to_i >= 2
     @items << title
   end
-  else  == 
+  else @items << title
   end
   
   def apply_discount
