@@ -30,7 +30,7 @@ class CashRegister
     self.class.all << self
   end
   
-def void_last_transaction
+def void_last_transaction()
   self.all.clear
 end
   
