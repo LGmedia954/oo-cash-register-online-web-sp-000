@@ -9,6 +9,10 @@ class CashRegister
   
   def apply_discount
     @discount.even? || @discount.to_f
+  
+  
+  def self.all
+    @@sales
   end
   
   def void_last_transaction
