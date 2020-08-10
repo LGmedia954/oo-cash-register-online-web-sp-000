@@ -34,7 +34,7 @@ class CashRegister
   end
   
   def @last_transaction
-    @cart += add_item
+    @cart + add_item
   end
  
   
