@@ -28,8 +28,6 @@ class CashRegister
     @total
   end
   
-  
-  
   def self.all
     @@sales
   end
