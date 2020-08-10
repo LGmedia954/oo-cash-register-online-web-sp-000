@@ -13,8 +13,9 @@ class CashRegister
   end
   
   def add_item(title, price, quantity = 0)
-    if quantity.to_i >= 2
+    if quantity.to_i >= 1
     @items << title
+    @total += 1
   end
   else
     @items << title
