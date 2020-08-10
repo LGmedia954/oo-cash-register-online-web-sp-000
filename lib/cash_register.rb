@@ -28,14 +28,6 @@ class CashRegister
     @total
   end
   
-  def self.all
-    @@sales
-  end
-  
-    def save
-    self.class.all << self
-  end
-  
 def void_last_transaction()
   @total -= @last_transaction
 end
